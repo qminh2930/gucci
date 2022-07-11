@@ -1,0 +1,21 @@
+.trend{
+    img{
+        width:100%;
+    }
+  
+    h1{
+        margin: 3rem 0;
+        letter-spacing: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+.card{
+    width: 20rem;
+    margin:0 auto;
+    .price{
+        color:red;
+    }
+}

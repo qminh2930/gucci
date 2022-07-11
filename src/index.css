@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+.alert2{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+.btn-purchase{
+    margin-top: 2rem;
+    background:#072056;
+}
+.btn-cart{
+    background:#F4C6CF;
+}
+.btn-cart:hover{
+    background:rgb(236, 100, 123);
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    width: 0.8rem;
+}
+::-webkit-scrollbar-track{
+    border-radius: 0.5rem;
+    box-shadow: inset 0 0 1rem rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+   
+}
